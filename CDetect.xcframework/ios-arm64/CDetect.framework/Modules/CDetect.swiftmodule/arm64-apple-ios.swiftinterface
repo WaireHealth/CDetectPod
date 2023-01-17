@@ -398,6 +398,7 @@ extension CDetect.WaireBluetoothManager : CoreBluetooth.CBPeripheralDelegate {
   public func discoverServices()
 }
 extension CDetect.WaireBluetoothManager {
+  public func checkForUpdates(onResult: ((_ hasUpdates: Swift.Bool, _ updatesFor: [CDetect.OTAType]) -> Swift.Void))
   public func updateHost()
   public func updateHub()
   public func updateBle()

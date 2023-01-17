@@ -14186,6 +14186,69 @@
           },
           {
             "kind": "Function",
+            "name": "checkForUpdates",
+            "printedName": "checkForUpdates(onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, [CDetect.OTAType]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, [CDetect.OTAType])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CDetect.OTAType]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OTAType",
+                            "printedName": "CDetect.OTAType",
+                            "usr": "s:7CDetect7OTATypeO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CDetect21WaireBluetoothManagerC15checkForUpdates8onResultyySb_SayAA7OTATypeOGtXE_tF",
+            "mangledName": "$s7CDetect21WaireBluetoothManagerC15checkForUpdates8onResultyySb_SayAA7OTATypeOGtXE_tF",
+            "moduleName": "CDetect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "updateHost",
             "printedName": "updateHost()",
             "children": [
