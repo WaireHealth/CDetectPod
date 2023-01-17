@@ -14186,8 +14186,8 @@
           },
           {
             "kind": "Function",
-            "name": "checkForUpdates",
-            "printedName": "checkForUpdates(onResult:)",
+            "name": "checkForDeviceUpdates",
+            "printedName": "checkForDeviceUpdates(onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14238,11 +14238,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7CDetect21WaireBluetoothManagerC15checkForUpdates8onResultyySb_SayAA7OTATypeOGtXE_tF",
-            "mangledName": "$s7CDetect21WaireBluetoothManagerC15checkForUpdates8onResultyySb_SayAA7OTATypeOGtXE_tF",
+            "usr": "s:7CDetect21WaireBluetoothManagerC21checkForDeviceUpdates8onResultyySb_SayAA7OTATypeOGtXE_tF",
+            "mangledName": "$s7CDetect21WaireBluetoothManagerC21checkForDeviceUpdates8onResultyySb_SayAA7OTATypeOGtXE_tF",
             "moduleName": "CDetect",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
