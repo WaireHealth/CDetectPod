@@ -13624,6 +13624,49 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "deviceIsConnected",
+            "printedName": "deviceIsConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect21WaireBluetoothManagerC17deviceIsConnectedSbvp",
+            "mangledName": "$s7CDetect21WaireBluetoothManagerC17deviceIsConnectedSbvp",
+            "moduleName": "CDetect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect21WaireBluetoothManagerC17deviceIsConnectedSbvg",
+                "mangledName": "$s7CDetect21WaireBluetoothManagerC17deviceIsConnectedSbvg",
+                "moduleName": "CDetect",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "stopDiscovering",
             "printedName": "stopDiscovering()",

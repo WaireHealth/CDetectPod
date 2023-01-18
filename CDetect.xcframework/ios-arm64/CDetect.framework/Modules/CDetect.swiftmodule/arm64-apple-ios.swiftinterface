@@ -379,6 +379,9 @@ extension CDetect.WaireBluetoothManager {
   public var state: CDetect.DeviceState {
     get
   }
+  public var deviceIsConnected: Swift.Bool {
+    get
+  }
   @objc dynamic public func stopDiscovering()
 }
 extension CDetect.WaireBluetoothManager : CoreBluetooth.CBCentralManagerDelegate {
