@@ -17926,6 +17926,93 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isScanning",
+            "printedName": "isScanning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect21WaireBluetoothManagerC10isScanningSbvp",
+            "mangledName": "$s7CDetect21WaireBluetoothManagerC10isScanningSbvp",
+            "moduleName": "CDetect",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect21WaireBluetoothManagerC10isScanningSbvg",
+                "mangledName": "$s7CDetect21WaireBluetoothManagerC10isScanningSbvg",
+                "moduleName": "CDetect",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect21WaireBluetoothManagerC10isScanningSbvs",
+                "mangledName": "$s7CDetect21WaireBluetoothManagerC10isScanningSbvs",
+                "moduleName": "CDetect",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect21WaireBluetoothManagerC10isScanningSbvM",
+                "mangledName": "$s7CDetect21WaireBluetoothManagerC10isScanningSbvM",
+                "moduleName": "CDetect",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -18352,28 +18439,6 @@
             "declKind": "Func",
             "usr": "s:7CDetect21WaireBluetoothManagerC15discoverDevicesyyF",
             "mangledName": "$s7CDetect21WaireBluetoothManagerC15discoverDevicesyyF",
-            "moduleName": "CDetect",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getPairedPeripherals",
-            "printedName": "getPairedPeripherals()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7CDetect21WaireBluetoothManagerC20getPairedPeripheralsyyF",
-            "mangledName": "$s7CDetect21WaireBluetoothManagerC20getPairedPeripheralsyyF",
             "moduleName": "CDetect",
             "declAttributes": [
               "AccessControl",
@@ -20015,6 +20080,13 @@
       },
       {
         "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "CDetect"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -20154,63 +20226,63 @@
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "StringLiteral",
-      "offset": 1969,
+      "offset": 3029,
       "length": 38,
       "value": "\"0ECE1001-1212-EFDE-1523-785FEF13D123\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "BooleanLiteral",
-      "offset": 2214,
+      "offset": 3274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "StringLiteral",
-      "offset": 2277,
+      "offset": 3337,
       "length": 38,
       "value": "\"0ECE1002-1212-EFDE-1523-785FEF13D123\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "StringLiteral",
-      "offset": 2505,
+      "offset": 3565,
       "length": 38,
       "value": "\"0ECE1001-1223-EFDE-1523-785FEF13D123\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "BooleanLiteral",
-      "offset": 2753,
+      "offset": 3813,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 3876,
       "length": 38,
       "value": "\"0ECE1002-1223-EFDE-1523-785FEF13D123\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "Array",
-      "offset": 3072,
+      "offset": 4132,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "BooleanLiteral",
-      "offset": 3916,
+      "offset": 4976,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceBluetoothConsts.swift",
       "kind": "BooleanLiteral",
-      "offset": 4028,
+      "offset": 5088,
       "length": 5,
       "value": "false"
     },
@@ -22947,23 +23019,30 @@
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10079,
+      "offset": 2800,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10102,
+      "offset": 10291,
       "length": 1,
-      "value": "3"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10131,
+      "offset": 10320,
       "length": 1,
-      "value": "3"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Utilities\/RequestResponseParcer.swift",

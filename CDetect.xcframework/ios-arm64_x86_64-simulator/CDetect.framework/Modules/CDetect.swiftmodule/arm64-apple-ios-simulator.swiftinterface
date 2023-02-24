@@ -424,6 +424,7 @@ public struct CDetectConfiguration : CDetect.BaseConfiguration {
   public var delegate: CDetect.WaireBluetoothManagerDelegate!
   public var deviceDelegate: CDetect.WaireDeviceDelegate!
   public var updateDelegate: CDetect.WaireUpdateDelegate!
+  public var isScanning: Swift.Bool
   @objc override dynamic public init()
   public func startSensor(freq: Swift.Int)
   public func restartSensor()
@@ -445,9 +446,8 @@ extension CDetect.WaireBluetoothManager {
   public var deviceIsConnected: Swift.Bool {
     get
   }
-  public func autoConnect(allow: Swift.Bool = false, attempts: Swift.Int = 3, attemptInterval: Swift.Double = 3)
+  public func autoConnect(allow: Swift.Bool = false, attempts: Swift.Int = 5, attemptInterval: Swift.Double = 5)
   public func discoverDevices()
-  public func getPairedPeripherals()
   @objc dynamic public func stopDiscovering()
   public func connectToDevice(device: CDetect.DiscoveredDevice)
   public func disconnectFromDevice()
