@@ -37,8 +37,21 @@ public struct DiscoveredDevice : Swift.Hashable {
   }
 }
 public protocol WaireDeviceDelegate {
+  func deviceWasSet(device: CDetect.CDetectPeripheral)
   func deviceStateDidChange(device: CDetect.CDetectPeripheral, state: CDetect.DeviceState)
   func readingsDidChange(device: CDetect.CDetectPeripheral, readings: CDetect.CDetectPayload)
+  func deviceConfiguredSuccessfully(device: CDetect.CDetectPeripheral, configuration: CDetect.BaseConfiguration)
+  func deviceFailedToConfigure(device: CDetect.CDetectPeripheral, reason: Swift.String)
+  func deviceConfigurationProgressUpdated(current: Swift.Int, total: Swift.Int)
+}
+public protocol WaireUpdateDelegate {
+  func onPrepared(type: CDetect.OTAType)
+  func onStarted(type: CDetect.OTAType)
+  func onComplete(type: CDetect.OTAType)
+  func onFailed(type: CDetect.OTAType, reason: Swift.String)
+  func onProgress(type: CDetect.OTAType, percent: Swift.Int)
+}
+public struct ConfigurableSettings {
 }
 @_hasMissingDesignatedInitializers public class CDetectPayload {
   public var readingTime: Swift.Int64
@@ -106,9 +119,27 @@ public protocol WaireDeviceDelegate {
   public init()
   @objc deinit
 }
+public protocol BaseConfiguration : Swift.Decodable, Swift.Encodable {
+  var cid: Swift.String { get set }
+  var sno: Swift.String? { get set }
+  var dlm: Swift.String? { get set }
+  var dlp: Swift.String? { get set }
+  var hu1: Swift.String? { get set }
+  var hp1: Swift.String? { get set }
+  var hu2: Swift.String? { get set }
+  var hp2: Swift.String? { get set }
+  var rxe: Swift.String? { get set }
+  var tke: Swift.String? { get set }
+  var kye: Swift.String? { get set }
+  var rcm: Swift.String? { get set }
+  var rcp: Swift.String? { get set }
+  var ale: Swift.String? { get set }
+  var pro: Swift.String? { get set }
+}
 public enum DeviceState {
   case connected
   case disconnected
+  case initialising
   case unknown
   public static func == (a: CDetect.DeviceState, b: CDetect.DeviceState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -124,10 +155,11 @@ public enum DeviceType {
     get
   }
 }
-public struct DeviceProperties {
-  public init(serialNumber: Swift.String = "00000000000", hostVersion: Swift.String = "0.0.0", hubVersion: Swift.String = "0.0.0", bleVersion: Swift.String = "0.0.0")
-  public mutating func updateVersions(host: Swift.String, hub: Swift.String, ble: Swift.String)
-  public mutating func updateSerial(serial: Swift.String)
+public class DeviceProperties {
+  public init(serialNumber: Swift.String = "00000000000", hostVersion: Swift.String = "0.0.0", hubVersion: Swift.String = "0.0.0", bleVersion: Swift.String = "0.0.0", featureSet: Swift.String = "1")
+  public func updateVersions(host: Swift.String, hub: Swift.String, ble: Swift.String)
+  public func updateSerial(serial: Swift.String)
+  public func updateFeatures(features: Swift.String)
   public var serial: Swift.String {
     get
   }
@@ -140,6 +172,10 @@ public struct DeviceProperties {
   public var ble: Swift.String {
     get
   }
+  public var features: Swift.String {
+    get
+  }
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class TrendingData {
   public var reading: CDetect.CDetectPayload {
@@ -150,7 +186,7 @@ public struct DeviceProperties {
   }
   @objc deinit
 }
-public struct CDetectPeripheral : Swift.Identifiable, Swift.Hashable {
+@_hasMissingDesignatedInitializers public class CDetectPeripheral : Swift.Identifiable, Swift.Hashable {
   public var id: Foundation.UUID
   public var peripheral: CoreBluetooth.CBPeripheral {
     get
@@ -170,10 +206,11 @@ public struct CDetectPeripheral : Swift.Identifiable, Swift.Hashable {
   public var trending: [CDetect.TrendingData] {
     get
   }
-  public mutating func setReadings(reading: CDetect.CDetectPayload)
+  public func setReadings(reading: CDetect.CDetectPayload)
   public static func == (lhs: CDetect.CDetectPeripheral, rhs: CDetect.CDetectPeripheral) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias ID = Foundation.UUID
+  @objc deinit
   public var hashValue: Swift.Int {
     get
   }
@@ -182,6 +219,7 @@ public struct CDetectPeripheral : Swift.Identifiable, Swift.Hashable {
   public static let instance: CDetect.WaireServices
   public var waireBluetoothManager: CDetect.WaireBluetoothManager!
   public var waireSDKVersion: Swift.String
+  public var firmwareVersions: [CDetect.OTAType : Swift.String]
   public func getService() -> CDetect.WaireBluetoothManager
   @objc deinit
 }
@@ -358,22 +396,47 @@ public enum PageFlashResult {
     get
   }
 }
+public struct CDetectConfiguration : CDetect.BaseConfiguration {
+  public var cid: Swift.String
+  public var sno: Swift.String?
+  public var dlm: Swift.String?
+  public var dlp: Swift.String?
+  public var hu1: Swift.String?
+  public var hp1: Swift.String?
+  public var hu2: Swift.String?
+  public var hp2: Swift.String?
+  public var rxe: Swift.String?
+  public var tke: Swift.String?
+  public var kye: Swift.String?
+  public var rcm: Swift.String?
+  public var rcp: Swift.String?
+  public var ale: Swift.String?
+  public var pro: Swift.String?
+  public var sim: Swift.String?
+  public var lcp: Swift.String?
+  public var ssi: Swift.String?
+  public var pph: Swift.String?
+  public var wcp: Swift.String?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 @objc @_inheritsConvenienceInitializers public class WaireBluetoothManager : ObjectiveC.NSObject {
   public var delegate: CDetect.WaireBluetoothManagerDelegate!
   public var deviceDelegate: CDetect.WaireDeviceDelegate!
-  public var onUpdateDidProgress: ((_ percent: Swift.Int) -> Swift.Void)?
+  public var updateDelegate: CDetect.WaireUpdateDelegate!
   @objc override dynamic public init()
   public func startSensor(freq: Swift.Int)
   public func restartSensor()
+  public func factoryResetSensor()
   public func getDeviceProperties()
   public func stopSensor()
+  public func setConfiguration(setting: Swift.String, value: Swift.String)
+  public func setJSONConfiguration(configuration: CDetect.BaseConfiguration)
+  public func getConfiguration(setting: Swift.String)
   @objc deinit
 }
 extension CDetect.WaireBluetoothManager {
-  public func discoverDevices()
-  public func connectToDevice(device: CDetect.DiscoveredDevice)
-  public func disconnectFromDevice()
-  public var device: CDetect.CDetectPeripheral {
+  public var device: CDetect.CDetectPeripheral? {
     get
   }
   public var state: CDetect.DeviceState {
@@ -382,7 +445,12 @@ extension CDetect.WaireBluetoothManager {
   public var deviceIsConnected: Swift.Bool {
     get
   }
+  public func autoConnect(allow: Swift.Bool = false, attempts: Swift.Int = 3, attemptInterval: Swift.Double = 3)
+  public func discoverDevices()
+  public func getPairedPeripherals()
   @objc dynamic public func stopDiscovering()
+  public func connectToDevice(device: CDetect.DiscoveredDevice)
+  public func disconnectFromDevice()
 }
 extension CDetect.WaireBluetoothManager : CoreBluetooth.CBCentralManagerDelegate {
   @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
@@ -398,15 +466,19 @@ extension CDetect.WaireBluetoothManager : CoreBluetooth.CBPeripheralDelegate {
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverDescriptorsFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateNotificationStateFor characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
   @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didModifyServices invalidatedServices: [CoreBluetooth.CBService])
-  public func discoverServices()
 }
 extension CDetect.WaireBluetoothManager {
-  public func checkForDeviceUpdates(onResult: ((_ hasUpdates: Swift.Bool, _ updatesFor: [CDetect.OTAType]) -> Swift.Void))
+  public func checkForDeviceUpdates(onResult: ((_ hasUpdates: Swift.Bool, _ updatesFor: [CDetect.OTAType], _ error: Swift.Error?) -> Swift.Void))
   public func updateHost()
   public func updateHub()
   public func updateBle()
 }
 @_hasMissingDesignatedInitializers public class RequestResponseUtils {
+  public static var configCheckAttempts: Swift.Int
+  public static var configPacketsTotal: Swift.Int
+  public static var configPacketsReceived: Swift.Int
+  public static var configJsonString: Swift.String
+  public static var configAutoCompletion: Foundation.Timer?
   public static func checkForResponse(value: Swift.String, exp: Swift.String) -> Swift.Bool
   public static func tryParseValue(value: Swift.String)
   @objc deinit
@@ -417,6 +489,7 @@ public protocol WaireBluetoothManagerDelegate {
   func onDeviceFailedToConnect(device: CDetect.CDetectPeripheral, reason: Swift.String)
   func onDeviceDisconnected(device: CDetect.CDetectPeripheral)
   func onFinishedScanning()
+  func onDeviceError(device: CDetect.CDetectPeripheral, reason: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class ImageHelper {
   public static func picture(named: Swift.String) -> UIKit.UIImage
