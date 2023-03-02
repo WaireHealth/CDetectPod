@@ -887,6 +887,951 @@
         "kind": "TypeDecl",
         "name": "ConfigurableSettings",
         "printedName": "ConfigurableSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SerialNumber",
+            "printedName": "SerialNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV12SerialNumberSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV12SerialNumberSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV12SerialNumberSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV12SerialNumberSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Features",
+            "printedName": "Features",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV8FeaturesSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV8FeaturesSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV8FeaturesSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV8FeaturesSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEDBrightness",
+            "printedName": "LEDBrightness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV13LEDBrightnessSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV13LEDBrightnessSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV13LEDBrightnessSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV13LEDBrightnessSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PowerMode",
+            "printedName": "PowerMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV9PowerModeSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV9PowerModeSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV9PowerModeSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV9PowerModeSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "HeartRateWarning",
+            "printedName": "HeartRateWarning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV16HeartRateWarningSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV16HeartRateWarningSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV16HeartRateWarningSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV16HeartRateWarningSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "HeartRateDanger",
+            "printedName": "HeartRateDanger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV15HeartRateDangerSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV15HeartRateDangerSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV15HeartRateDangerSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV15HeartRateDangerSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "HeartRateConfidence",
+            "printedName": "HeartRateConfidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV19HeartRateConfidenceSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV19HeartRateConfidenceSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV19HeartRateConfidenceSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV19HeartRateConfidenceSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RespRateWarning",
+            "printedName": "RespRateWarning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV15RespRateWarningSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV15RespRateWarningSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV15RespRateWarningSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV15RespRateWarningSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RespRateDanger",
+            "printedName": "RespRateDanger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV14RespRateDangerSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV14RespRateDangerSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV14RespRateDangerSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV14RespRateDangerSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RespRateConfidence",
+            "printedName": "RespRateConfidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV18RespRateConfidenceSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV18RespRateConfidenceSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV18RespRateConfidenceSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV18RespRateConfidenceSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CBTempWarning",
+            "printedName": "CBTempWarning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV13CBTempWarningSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV13CBTempWarningSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV13CBTempWarningSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV13CBTempWarningSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CBTempDanger",
+            "printedName": "CBTempDanger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV12CBTempDangerSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV12CBTempDangerSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV12CBTempDangerSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV12CBTempDangerSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CBTempConfidence",
+            "printedName": "CBTempConfidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV16CBTempConfidenceSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV16CBTempConfidenceSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV16CBTempConfidenceSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV16CBTempConfidenceSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PulseOxyRateWarning",
+            "printedName": "PulseOxyRateWarning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV19PulseOxyRateWarningSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV19PulseOxyRateWarningSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV19PulseOxyRateWarningSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV19PulseOxyRateWarningSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PulseOxyRateDanger",
+            "printedName": "PulseOxyRateDanger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV18PulseOxyRateDangerSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV18PulseOxyRateDangerSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV18PulseOxyRateDangerSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV18PulseOxyRateDangerSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PulseOxyConfidence",
+            "printedName": "PulseOxyConfidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV18PulseOxyConfidenceSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV18PulseOxyConfidenceSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV18PulseOxyConfidenceSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV18PulseOxyConfidenceSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UserHeight",
+            "printedName": "UserHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV10UserHeightSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV10UserHeightSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV10UserHeightSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV10UserHeightSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UserWeight",
+            "printedName": "UserWeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV10UserWeightSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV10UserWeightSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV10UserWeightSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV10UserWeightSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UserGender",
+            "printedName": "UserGender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV10UserGenderSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV10UserGenderSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV10UserGenderSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV10UserGenderSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UserSkinTone",
+            "printedName": "UserSkinTone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7CDetect20ConfigurableSettingsV12UserSkinToneSSvpZ",
+            "mangledName": "$s7CDetect20ConfigurableSettingsV12UserSkinToneSSvpZ",
+            "moduleName": "CDetect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7CDetect20ConfigurableSettingsV12UserSkinToneSSvgZ",
+                "mangledName": "$s7CDetect20ConfigurableSettingsV12UserSkinToneSSvgZ",
+                "moduleName": "CDetect",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:7CDetect20ConfigurableSettingsV",
         "mangledName": "$s7CDetect20ConfigurableSettingsV",
@@ -18185,6 +19130,47 @@
           },
           {
             "kind": "Function",
+            "name": "setConfigurations",
+            "printedName": "setConfigurations(settings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7CDetect21WaireBluetoothManagerC17setConfigurations8settingsySDyS2SG_tF",
+            "mangledName": "$s7CDetect21WaireBluetoothManagerC17setConfigurations8settingsySDyS2SG_tF",
+            "moduleName": "CDetect",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setJSONConfiguration",
             "printedName": "setJSONConfiguration(configuration:)",
             "children": [
@@ -20289,679 +21275,721 @@
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 15,
       "value": "\"serial_number\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 242,
+      "offset": 256,
       "length": 15,
       "value": "\"unit_features\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 309,
+      "offset": 310,
+      "length": 11,
+      "value": "\"led_level\""
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
       "length": 14,
       "value": "\"set_cfg_json\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 453,
+      "length": 12,
+      "value": "\"power_mode\""
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
       "length": 15,
       "value": "\"warn_hr_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 438,
+      "offset": 568,
       "length": 16,
       "value": "\"alert_hr_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 629,
       "length": 9,
       "value": "\"conf_hr\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 684,
       "length": 17,
       "value": "\"warn_resp_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 741,
       "length": 18,
       "value": "\"alert_resp_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 645,
+      "offset": 803,
       "length": 11,
       "value": "\"conf_resp\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 693,
+      "offset": 858,
       "length": 16,
       "value": "\"warn_cbt_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 912,
       "length": 17,
       "value": "\"alert_cbt_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 971,
       "length": 10,
       "value": "\"conf_cbt\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 1031,
       "length": 17,
       "value": "\"warn_spo2_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 1092,
       "length": 18,
       "value": "\"alert_spo2_limit\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 1154,
       "length": 11,
       "value": "\"conf_spo2\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 15,
+      "value": "\"person_height\""
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 15,
+      "value": "\"person_weight\""
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "StringLiteral",
+      "offset": 1327,
+      "length": 15,
+      "value": "\"person_gender\""
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 18,
+      "value": "\"person_skin_type\""
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 1051,
+      "offset": 1484,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 1069,
+      "offset": 1502,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 1328,
+      "offset": 1761,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 1606,
+      "offset": 2039,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 1798,
+      "offset": 2231,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 1997,
+      "offset": 2430,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 2204,
+      "offset": 2637,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 2404,
+      "offset": 2837,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 2598,
+      "offset": 3031,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 2786,
+      "offset": 3219,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 3020,
+      "offset": 3453,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 3043,
+      "offset": 3476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 3102,
+      "offset": 3535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 3127,
+      "offset": 3560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 3148,
+      "offset": 3581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 3169,
+      "offset": 3602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 3495,
+      "offset": 3928,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 3515,
+      "offset": 3948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 3829,
+      "offset": 4262,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 3849,
+      "offset": 4282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 4155,
+      "offset": 4588,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 4349,
+      "offset": 4782,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 4369,
+      "offset": 4802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 4677,
+      "offset": 5110,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "Array",
-      "offset": 4700,
+      "offset": 5133,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 4718,
+      "offset": 5151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 5023,
+      "offset": 5456,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "Array",
-      "offset": 5044,
+      "offset": 5477,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 5062,
+      "offset": 5495,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 5359,
+      "offset": 5792,
       "length": 4,
       "value": "6600"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 5379,
+      "offset": 5812,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 5678,
+      "offset": 6111,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 5716,
+      "offset": 6149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "Array",
-      "offset": 6243,
+      "offset": 6676,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 6281,
+      "offset": 6714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 6304,
+      "offset": 6737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 6363,
+      "offset": 6796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 6388,
+      "offset": 6821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 6409,
+      "offset": 6842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 6430,
+      "offset": 6863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 6743,
+      "offset": 7176,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 7032,
+      "offset": 7465,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 7414,
+      "offset": 7847,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 7864,
+      "offset": 8297,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 8325,
+      "offset": 8758,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 8816,
+      "offset": 9249,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 8842,
+      "offset": 9275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 8901,
+      "offset": 9334,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 8926,
+      "offset": 9359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 8947,
+      "offset": 9380,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 8970,
+      "offset": 9403,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 9554,
+      "offset": 9987,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 10010,
+      "offset": 10443,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 10465,
+      "offset": 10898,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 10883,
+      "offset": 11316,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 11174,
+      "offset": 11607,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 11615,
+      "offset": 12048,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 12068,
+      "offset": 12501,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 12536,
+      "offset": 12969,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 12999,
-      "length": 4,
-      "value": "1500"
-    },
-    {
-      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
-      "kind": "Array",
-      "offset": 13024,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13505,
+      "offset": 13432,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "Array",
-      "offset": 13532,
+      "offset": 13457,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 14034,
+      "offset": 13938,
+      "length": 4,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "Array",
+      "offset": 13965,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14467,
       "length": 4,
       "value": "6600"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 14452,
+      "offset": 14885,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 14874,
+      "offset": 15307,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "Array",
-      "offset": 14897,
+      "offset": 15330,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 14917,
+      "offset": 15350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 15744,
+      "offset": 16177,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 16025,
+      "offset": 16458,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 16340,
+      "offset": 16773,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 16366,
+      "offset": 16799,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 16425,
+      "offset": 16858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 16450,
+      "offset": 16883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 16471,
+      "offset": 16904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 16494,
+      "offset": 16927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "IntegerLiteral",
-      "offset": 17074,
+      "offset": 17507,
       "length": 4,
       "value": "1500"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 17100,
+      "offset": 17533,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "StringLiteral",
-      "offset": 17159,
+      "offset": 17592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 17184,
+      "offset": 17617,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 17205,
+      "offset": 17638,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/StaticValues\/DeviceRequests.swift",
       "kind": "BooleanLiteral",
-      "offset": 17228,
+      "offset": 17661,
       "length": 5,
       "value": "false"
     },
@@ -23026,21 +24054,21 @@
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
       "kind": "BooleanLiteral",
-      "offset": 10268,
+      "offset": 10803,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10291,
+      "offset": 10826,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/WaireBluetoothService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10320,
+      "offset": 10855,
       "length": 1,
       "value": "5"
     },

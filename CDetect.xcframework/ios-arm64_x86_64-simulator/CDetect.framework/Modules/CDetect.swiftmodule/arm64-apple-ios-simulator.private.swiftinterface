@@ -52,6 +52,26 @@ public protocol WaireUpdateDelegate {
   func onProgress(type: CDetect.OTAType, percent: Swift.Int)
 }
 public struct ConfigurableSettings {
+  public static let SerialNumber: Swift.String
+  public static let Features: Swift.String
+  public static let LEDBrightness: Swift.String
+  public static let PowerMode: Swift.String
+  public static let HeartRateWarning: Swift.String
+  public static let HeartRateDanger: Swift.String
+  public static let HeartRateConfidence: Swift.String
+  public static let RespRateWarning: Swift.String
+  public static let RespRateDanger: Swift.String
+  public static let RespRateConfidence: Swift.String
+  public static let CBTempWarning: Swift.String
+  public static let CBTempDanger: Swift.String
+  public static let CBTempConfidence: Swift.String
+  public static let PulseOxyRateWarning: Swift.String
+  public static let PulseOxyRateDanger: Swift.String
+  public static let PulseOxyConfidence: Swift.String
+  public static let UserHeight: Swift.String
+  public static let UserWeight: Swift.String
+  public static let UserGender: Swift.String
+  public static let UserSkinTone: Swift.String
 }
 @_hasMissingDesignatedInitializers public class CDetectPayload {
   public var readingTime: Swift.Int64
@@ -432,6 +452,7 @@ public struct CDetectConfiguration : CDetect.BaseConfiguration {
   public func getDeviceProperties()
   public func stopSensor()
   public func setConfiguration(setting: Swift.String, value: Swift.String)
+  public func setConfigurations(settings: Swift.Dictionary<Swift.String, Swift.String>)
   public func setJSONConfiguration(configuration: CDetect.BaseConfiguration)
   public func getConfiguration(setting: Swift.String)
   @objc deinit
