@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Pv4TQeshDPcCt53qxh3z5GXrFhM=
+		9JRydFlj9ag+uUjzPDsexX1z7QQ=
 		</data>
 		<key>Modules/CDetect.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yoEv0xBjDulG//SpdcMdyFSp2gk=
+		xSzYu+BNLpKqk7s9uuvBWZBgZLI=
 		</data>
 		<key>Modules/CDetect.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/CDetect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RyqyHDpRiOf3WEeg4xxEwmPHdIE=
+		UvsX/fPalPoeea1o2zqK9PKOBJU=
 		</data>
 		<key>Modules/CDetect.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yoEv0xBjDulG//SpdcMdyFSp2gk=
+		xSzYu+BNLpKqk7s9uuvBWZBgZLI=
 		</data>
 		<key>Modules/CDetect.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,15 @@
 		</data>
 		<key>Modules/CDetect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RD72mcZmi9t7Mk+PT1F9eTt0ibM=
+		92CrZBcyZnE7cIyaMvrHecK5CHE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		F4D6e2tY8gmhJup9FBs6Tv4vKLM=
+		</data>
+		<key>host_2.9.3.bin</key>
+		<data>
+		Ftuv6Cr+s3udC36879Xuwdz2TDM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -81,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYAims5pZ3/leCxP+I2BgfsTUvDVjaqe5Ym1GUOik3c=
+			DzpQOtwKehWa5hGoIDIGSvyukL/6lIJmq/UqkGZpevc=
 			</data>
 		</dict>
 		<key>Modules/CDetect.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QtCjLEqd/Pcl31Oz2GB8nY7/tobBZgUQ5Ar6A4QOe68=
+			OYESJz1T75Kkf5d22n5CnsncE58ccgjvBHI2diuqDEs=
 			</data>
 		</dict>
 		<key>Modules/CDetect.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYAims5pZ3/leCxP+I2BgfsTUvDVjaqe5Ym1GUOik3c=
+			DzpQOtwKehWa5hGoIDIGSvyukL/6lIJmq/UqkGZpevc=
 			</data>
 		</dict>
 		<key>Modules/CDetect.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uDT/uOtBnO9Eel9jcBG/l52tFjlyuGtoFD6BasBSR78=
+			H4ktqkOVp3A4eybIZJAWgxGqf33UMRX9+1hB5XJ8V7s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +156,13 @@
 			<key>hash2</key>
 			<data>
 			3kgyxaokq+pNEjtURYdGG/kRnCUcABZm9x39XtGUu5o=
+			</data>
+		</dict>
+		<key>host_2.9.3.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XPp/cagUC4bXzv9ROlnLtW4egNxLpB/JxXha1h2bdlo=
 			</data>
 		</dict>
 	</dict>

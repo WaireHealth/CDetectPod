@@ -22353,14 +22353,14 @@
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/OTA\/WaireUpdateManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11933,
+      "offset": 11916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Services\/OTA\/WaireUpdateManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12525,
+      "offset": 12508,
       "length": 1,
       "value": "0"
     },
@@ -22411,7 +22411,7 @@
       "kind": "StringLiteral",
       "offset": 377,
       "length": 7,
-      "value": "\"2.9.2\""
+      "value": "\"2.9.3\""
     },
     {
       "filePath": "\/Users\/ruaridhwylie\/Documents\/WaireHealth\/SDKs\/iOS\/iOSDevelopmentKit\/CDetect\/Shared\/Shared.swift",
